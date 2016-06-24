@@ -75,7 +75,7 @@ const int MAXP = 100;
 const int MAXT = 10000;	
 //maximal number of total particles in simulator
 //const int MAXSIZE = 1048576;	
-const int MAXSIZE = 100;	
+const int MAXSIZE = 1024;	
 //speed of particle
 const double V = 300000;
 // dt

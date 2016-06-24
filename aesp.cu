@@ -15,15 +15,16 @@ __global__ void evolve_p_state(particle *d_elements, cell *d_cell, curandState *
     	int id =  blockIdx.x+blockDim.x*threadIdx.x;
     	if (id<MAXSIZE){
     	particle *p = &d_elements[id];
-	if (atomicCAS(&p->alive,1,1)> 0){
+	if (atomicCAS(&p->alive,1,p->alive)> 0){
 		int xcell = p->x >> (int)log2(CELLS);
 		int ycell = p->y >> (int)log2(CELLS);
 		curandState state = globalState[id];
 		double d = curand_uniform_double(&state);
-	printf("Rand:  %f, Particle id %i, Cell Ann: %f\n", d, p->id, (d_cell[(int)(xcell+ycell*CELLS)]).ann);
+//	printf("Rand:  %f, Particle id %i, Cell Ann: %f\n", d, p->id, (d_cell[(int)(xcell+ycell*CELLS)]).ann);
 		if (d > (d_cell[(int)(xcell+ycell*CELLS)]).ann){
-	printf("Rand:  %f, PArticle Id: %i, \n", d, p->id);
+//	printf("Rand:  %f, PArticle Id: %i, particle count: %i \n", d, p->id, (d_cell[(int)(xcell+ycell*CELLS)]).pcount);
 			atomicSub(&(d_cell[(int)(xcell+ycell*CELLS)]).pcount,1); 
+//	printf("Rand:  %f, PArticle Id: %i, particle count: %i \n", d, p->id, (d_cell[(int)(xcell+ycell*CELLS)]).pcount);
     			    atomicSub(&p->alive,1);
     			    int r = atomicSub(d_active,1);
 		   	    //  __syncthreads();
@@ -34,7 +35,7 @@ __global__ void evolve_p_state(particle *d_elements, cell *d_cell, curandState *
 			p->x = 0;
 			p->y = 0;
 			p->speed = 0;
-	    	//	printf("Particle %i from Block %i with x=%i, y=%i died, Bloc counter is now %i\n",p->id, (int)(xcell+ycell*CELLS), d_cell[(int)(xcell+ycell*CELLS)].x0, d_cell[(int)(xcell+ycell*CELLS)].y0, d_cell[(int)(xcell+ycell*CELLS)].pcount);
+	    		printf("Particle %i from Block %i with x=%i, y=%i died, Bloc counter is now %i\n",p->id, (int)(xcell+ycell*CELLS), d_cell[(int)(xcell+ycell*CELLS)].x0, d_cell[(int)(xcell+ycell*CELLS)].y0, d_cell[(int)(xcell+ycell*CELLS)].pcount);
 		}
 		}
 	}
@@ -44,29 +45,29 @@ __global__ void evolve_p_state(particle *d_elements, cell *d_cell, curandState *
 /**************************************************************
 * For each cell determine if new particles should be created
 **************************************************************/
-__global__ void evolve_c_state(particle *d_elements, cell *d_cell, curandState *globalState, int *d_states, int *x)
+__global__ void evolve_c_state(particle *d_elements, cell *d_cell, curandState *globalState, int *d_states, int *d_index)
 {
     int id =  blockIdx.x+blockDim.x*threadIdx.x;
+    if (id<CELLS*CELLS){
     cell *c = &d_cell[id];
     curandState state = globalState[id];
     double d = curand_uniform_double(&state);
     if (d < c->cre){
-	    int j = atomicSub(x,1);
-	    int id = d_states[j];
+	    int j = atomicSub(d_index,1);
+	    int idc = d_states[j+1];
 	    d_states[j+1] = -1;
-	    particle *p = &d_elements[id];
+	    particle *p = &d_elements[idc];
 	    p->alive = 1;
     	d = curand_uniform_double(&state);
 	p->x = d*CELLX;
     	d = curand_uniform_double(&state);
 	p->y = d*CELLY;
 	p->speed = 0;
-	int xcell = p->x >> (int)log2(CELLS);
-	int ycell = p->y >> (int)log2(CELLS);
 //	printf("%i %i %i\n",xcell,ycell,(int)(xcell+ycell*CELLS));
-	(d_cell[(int)(xcell+ycell*CELLS)]).pcount++; 
+	atomicAdd(&c->pcount,1); 
 //	printf("%i %i %i\n",xcell,ycell,cells[(int)(xcell+ycell*CELLS)]->pcount);
 
+    }
     }
 
 }
@@ -82,7 +83,7 @@ __global__ void propagate(Lock lock, particle *d_elements, cell *d_cell, curandS
 	    int ycell0 = p->y >> (int)log2(CELLS);
 	    int xcell1;
 	    int ycell1;
-	    if (atomicCAS(&p->alive,1,1)> 0){
+	    if (atomicCAS(&p->alive,1,p->alive)> 0){
 		    if (p->speed == 0){
 			    curandState state = globalState[id];
 			    double d = curand_uniform_double(&state);
@@ -210,7 +211,6 @@ int main(){
 		printf("Cells Done %i, %i \n", h_index, MAXSIZE);
 	for (int a = MAXSIZE-1; a >= MAXSIZE-10;a--){
 		printf("Particle %i at coordinates %i, %i is alive %d\n", h_elements[a].id,h_elements[a].x, h_elements[a].y, h_elements[a].alive);
-		//printf("Particle %i is at x coordinate %i and y coordinate %i\n",a,h_elements[a].x,h_elements[a].y);
 	}
 
 	h_total = MAXSIZE;
@@ -232,16 +232,11 @@ int main(){
 	printf("CUDA error: %s\n", cudaGetErrorString(cudaMemcpy(d_elements, h_elements, memSize, cudaMemcpyHostToDevice)));
 	//cudaDeviceSynchronize();
 
-//	for (int a = MAXSIZE-1; a >= MAXSIZE-10;a--){
-//		printf("Particle %i is at x coordinate %i and y coordinate %i\n",a,h_elements[a].x,h_elements[a].y);
-//	}
-
-	//interesctPropagate(d_elements, globalstate);
 	for (int p = 0; p< 10000; p++){
 //		propagate<<<BLOCKS, BLOCKS>>>(lock, d_elements, d_cells, globalstate, d_states, d_index, d_active);
-		setup_kernel <<<BLOCKS, 512 >>>(globalstate, time(NULL));
-		evolve_p_state<<<BLOCKS, 512>>>(d_elements, d_cells, globalstate, d_states, d_index, d_active);
-		evolve_c_state<<<BLOCKS, 1>>>(d_elements, d_cells, globalstate, d_states, d_index);
+		setup_kernel <<<BLOCKS, BLOCKS >>>(globalstate, time(NULL));
+		evolve_p_state<<<BLOCKS, BLOCKS>>>(d_elements, d_cells, globalstate, d_states, d_index, d_active);
+		evolve_c_state<<<BLOCKS, BLOCKS>>>(d_elements, d_cells, globalstate, d_states, d_index);
 	}
 
 	memSize = MAXSIZE*sizeof(particle);
@@ -255,17 +250,7 @@ int main(){
 
 	for (int a = MAXSIZE-1; a >= MAXSIZE-10;a--){
 		printf("Particle %i at coordinates %i, %i is alive %d\n", h_elements[a].id,h_elements[a].x, h_elements[a].y, h_elements[a].alive);
-		//printf("Particle %i is at x coordinate %i and y coordinate %i\n",a,h_elements[a].x,h_elements[a].y);
 	}
 
-/*	for (int a = MAXSIZE-1; a >= 0;a--){
-		int j = h_states[a];
-		int count = 0;
-		for (int b = MAXSIZE-1; b >= 0;b--){
-			if (h_states[b] == j) count++;
-		}
-		printf("Particle index at %i with id %i has been dealocated %i times\n", a, h_states[a], count);
-	}
-*/
 return 0;
 }

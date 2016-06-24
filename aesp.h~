@@ -63,7 +63,7 @@ using namespace std;
 //CUDA params 
 //BLOCKS and MAXSIZE should be related. 
 //Simplest case is BLOCKS*BLOCKS=MAXSIZE.
-const int BLOCKS = 1024;
+const int BLOCKS = 32;
 
 //Simulation Parameters
 //Emisivity - default is particles/square/second
