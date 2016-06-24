@@ -1,0 +1,852 @@
+1465741501 States Done
+Cells Done 0, 400 
+Particle at coordinates 105, 115 is alive 1
+Particle at coordinates 81, 255 is alive 1
+Particle at coordinates 74, 236 is alive 1
+Particle at coordinates 809, 205 is alive 1
+Particle at coordinates 186, 939 is alive 1
+Particle at coordinates 498, 763 is alive 1
+Particle at coordinates 483, 326 is alive 1
+Particle at coordinates 124, 706 is alive 1
+Particle at coordinates 84, 1016 is alive 1
+Particle at coordinates 795, 488 is alive 1
+CUDA error: no error
+CUDA error: no error
+CUDA error: no error
+CUDA error: no error
+CUDA error: no error
+CUDA error: no error
+CUDA error: no error
+Particle 49 is dead, Remaining particles: 394, at 5
+Particle 74 is dead, Remaining particles: 398, at 1
+Particle 37 is dead, Remaining particles: 389, at 10
+Particle 97 is dead, Remaining particles: 386, at 12
+Particle 87 is dead, Remaining particles: 392, at 7
+Particle 142 is dead, Remaining particles: 390, at 9
+Particle 236 is dead, Remaining particles: 399, at 0
+Particle 270 is dead, Remaining particles: 395, at 4
+Particle 246 is dead, Remaining particles: 391, at 8
+Particle 61 is dead, Remaining particles: 387, at 11
+Particle 261 is dead, Remaining particles: 384, at 13
+Particle 332 is dead, Remaining particles: 396, at 3
+Particle 3 is dead, Remaining particles: 397, at 2
+Particle 383 is dead, Remaining particles: 393, at 6
+Particle 231 is dead, Remaining particles: 385, at 15
+Particle 391 is dead, Remaining particles: 388, at 14
+Particle 5 is dead, Remaining particles: 369, at 30
+Particle 28 is dead, Remaining particles: 381, at 18
+Particle 11 is dead, Remaining particles: 377, at 21
+Particle 36 is dead, Remaining particles: 379, at 22
+Particle 76 is dead, Remaining particles: 378, at 23
+Particle 103 is dead, Remaining particles: 383, at 16
+Particle 66 is dead, Remaining particles: 368, at 31
+Particle 62 is dead, Remaining particles: 375, at 24
+Particle 122 is dead, Remaining particles: 374, at 26
+Particle 178 is dead, Remaining particles: 382, at 17
+Particle 250 is dead, Remaining particles: 380, at 19
+Particle 247 is dead, Remaining particles: 373, at 25
+Particle 137 is dead, Remaining particles: 372, at 27
+Particle 257 is dead, Remaining particles: 371, at 28
+Particle 335 is dead, Remaining particles: 370, at 29
+Particle 360 is dead, Remaining particles: 376, at 20
+Particle 22 is dead, Remaining particles: 366, at 33
+Particle 170 is dead, Remaining particles: 364, at 35
+Particle 205 is dead, Remaining particles: 363, at 36
+Particle 148 is dead, Remaining particles: 362, at 37
+Particle 194 is dead, Remaining particles: 365, at 34
+Particle 252 is dead, Remaining particles: 367, at 32
+Particle 338 is dead, Remaining particles: 359, at 40
+Particle 273 is dead, Remaining particles: 358, at 41
+Particle 64 is dead, Remaining particles: 361, at 38
+Particle 344 is dead, Remaining particles: 360, at 39
+Particle 4 is dead, Remaining particles: 355, at 44
+Particle 163 is dead, Remaining particles: 357, at 42
+Particle 80 is dead, Remaining particles: 354, at 45
+Particle 180 is dead, Remaining particles: 353, at 46
+Particle 182 is dead, Remaining particles: 351, at 47
+Particle 265 is dead, Remaining particles: 352, at 48
+Particle 267 is dead, Remaining particles: 356, at 43
+Particle 295 is dead, Remaining particles: 345, at 51
+Particle 353 is dead, Remaining particles: 350, at 49
+Particle 373 is dead, Remaining particles: 349, at 50
+Particle 19 is dead, Remaining particles: 348, at 52
+Particle 179 is dead, Remaining particles: 347, at 53
+Particle 239 is dead, Remaining particles: 346, at 54
+Particle 279 is dead, Remaining particles: 344, at 55
+Particle 21 is dead, Remaining particles: 333, at 66
+Particle 164 is dead, Remaining particles: 340, at 59
+Particle 274 is dead, Remaining particles: 332, at 67
+Particle 85 is dead, Remaining particles: 339, at 61
+Particle 285 is dead, Remaining particles: 338, at 62
+Particle 303 is dead, Remaining particles: 343, at 56
+Particle 313 is dead, Remaining particles: 337, at 60
+Particle 342 is dead, Remaining particles: 342, at 57
+Particle 397 is dead, Remaining particles: 341, at 58
+Particle 306 is dead, Remaining particles: 331, at 68
+Particle 393 is dead, Remaining particles: 335, at 63
+Particle 219 is dead, Remaining particles: 334, at 65
+Particle 359 is dead, Remaining particles: 336, at 64
+Particle 10 is dead, Remaining particles: 324, at 73
+Particle 57 is dead, Remaining particles: 330, at 69
+Particle 168 is dead, Remaining particles: 322, at 77
+Particle 193 is dead, Remaining particles: 328, at 71
+Particle 98 is dead, Remaining particles: 318, at 81
+Particle 218 is dead, Remaining particles: 316, at 83
+Particle 215 is dead, Remaining particles: 319, at 80
+Particle 284 is dead, Remaining particles: 329, at 70
+Particle 187 is dead, Remaining particles: 326, at 72
+Particle 102 is dead, Remaining particles: 327, at 74
+Particle 282 is dead, Remaining particles: 325, at 75
+Particle 186 is dead, Remaining particles: 323, at 76
+Particle 140 is dead, Remaining particles: 320, at 79
+Particle 340 is dead, Remaining particles: 321, at 78
+Particle 301 is dead, Remaining particles: 315, at 84
+Particle 361 is dead, Remaining particles: 317, at 82
+Particle 44 is dead, Remaining particles: 310, at 89
+Particle 89 is dead, Remaining particles: 306, at 93
+Particle 59 is dead, Remaining particles: 311, at 88
+Particle 116 is dead, Remaining particles: 308, at 90
+Particle 100 is dead, Remaining particles: 312, at 87
+Particle 130 is dead, Remaining particles: 304, at 94
+Particle 243 is dead, Remaining particles: 313, at 86
+Particle 278 is dead, Remaining particles: 300, at 99
+Particle 322 is dead, Remaining particles: 314, at 85
+Particle 375 is dead, Remaining particles: 302, at 97
+Particle 227 is dead, Remaining particles: 301, at 98
+Particle 201 is dead, Remaining particles: 307, at 92
+Particle 321 is dead, Remaining particles: 309, at 91
+Particle 291 is dead, Remaining particles: 303, at 96
+Particle 371 is dead, Remaining particles: 305, at 95
+Particle 29 is dead, Remaining particles: 288, at 111
+Particle 0 is dead, Remaining particles: 296, at 103
+Particle 41 is dead, Remaining particles: 294, at 105
+Particle 128 is dead, Remaining particles: 295, at 104
+Particle 162 is dead, Remaining particles: 299, at 100
+Particle 195 is dead, Remaining particles: 292, at 107
+Particle 204 is dead, Remaining particles: 293, at 106
+Particle 298 is dead, Remaining particles: 290, at 108
+Particle 283 is dead, Remaining particles: 297, at 102
+Particle 197 is dead, Remaining particles: 289, at 110
+Particle 377 is dead, Remaining particles: 291, at 109
+Particle 396 is dead, Remaining particles: 298, at 101
+Particle 31 is dead, Remaining particles: 285, at 114
+Particle 86 is dead, Remaining particles: 277, at 122
+Particle 139 is dead, Remaining particles: 286, at 113
+Particle 114 is dead, Remaining particles: 276, at 123
+Particle 304 is dead, Remaining particles: 287, at 112
+Particle 310 is dead, Remaining particles: 282, at 115
+Particle 245 is dead, Remaining particles: 283, at 117
+Particle 385 is dead, Remaining particles: 284, at 116
+Particle 175 is dead, Remaining particles: 279, at 120
+Particle 355 is dead, Remaining particles: 281, at 118
+Particle 395 is dead, Remaining particles: 280, at 119
+Particle 307 is dead, Remaining particles: 278, at 121
+Particle 69 is dead, Remaining particles: 267, at 132
+Particle 217 is dead, Remaining particles: 275, at 124
+Particle 221 is dead, Remaining particles: 274, at 125
+Particle 228 is dead, Remaining particles: 268, at 131
+Particle 213 is dead, Remaining particles: 270, at 129
+Particle 232 is dead, Remaining particles: 269, at 130
+Particle 156 is dead, Remaining particles: 272, at 127
+Particle 276 is dead, Remaining particles: 271, at 128
+Particle 358 is dead, Remaining particles: 273, at 126
+Particle 8 is dead, Remaining particles: 257, at 142
+Particle 56 is dead, Remaining particles: 259, at 140
+Particle 43 is dead, Remaining particles: 262, at 137
+Particle 118 is dead, Remaining particles: 260, at 139
+Particle 225 is dead, Remaining particles: 263, at 136
+Particle 211 is dead, Remaining particles: 261, at 138
+Particle 259 is dead, Remaining particles: 265, at 134
+Particle 362 is dead, Remaining particles: 266, at 133
+Particle 312 is dead, Remaining particles: 256, at 143
+Particle 287 is dead, Remaining particles: 258, at 141
+Particle 384 is dead, Remaining particles: 264, at 135
+Particle 150 is dead, Remaining particles: 248, at 151
+Particle 123 is dead, Remaining particles: 250, at 149
+Particle 173 is dead, Remaining particles: 249, at 150
+Particle 237 is dead, Remaining particles: 252, at 147
+Particle 229 is dead, Remaining particles: 246, at 153
+Particle 72 is dead, Remaining particles: 245, at 154
+Particle 132 is dead, Remaining particles: 244, at 155
+Particle 262 is dead, Remaining particles: 255, at 144
+Particle 305 is dead, Remaining particles: 251, at 146
+Particle 181 is dead, Remaining particles: 253, at 148
+Particle 341 is dead, Remaining particles: 254, at 145
+Particle 394 is dead, Remaining particles: 247, at 152
+Particle 73 is dead, Remaining particles: 237, at 162
+Particle 136 is dead, Remaining particles: 239, at 160
+Particle 54 is dead, Remaining particles: 235, at 164
+Particle 141 is dead, Remaining particles: 243, at 156
+Particle 223 is dead, Remaining particles: 240, at 157
+Particle 289 is dead, Remaining particles: 236, at 163
+Particle 77 is dead, Remaining particles: 242, at 158
+Particle 337 is dead, Remaining particles: 241, at 159
+Particle 388 is dead, Remaining particles: 238, at 161
+Particle 50 is dead, Remaining particles: 222, at 175
+Particle 26 is dead, Remaining particles: 219, at 180
+Particle 35 is dead, Remaining particles: 230, at 170
+Particle 115 is dead, Remaining particles: 229, at 172
+Particle 158 is dead, Remaining particles: 227, at 171
+Particle 153 is dead, Remaining particles: 220, at 178
+Particle 202 is dead, Remaining particles: 234, at 165
+Particle 203 is dead, Remaining particles: 226, at 173
+Particle 251 is dead, Remaining particles: 228, at 169
+Particle 325 is dead, Remaining particles: 233, at 166
+Particle 199 is dead, Remaining particles: 232, at 167
+Particle 299 is dead, Remaining particles: 231, at 168
+Particle 174 is dead, Remaining particles: 218, at 181
+Particle 214 is dead, Remaining particles: 217, at 182
+Particle 382 is dead, Remaining particles: 221, at 179
+Particle 112 is dead, Remaining particles: 224, at 176
+Particle 192 is dead, Remaining particles: 223, at 177
+Particle 352 is dead, Remaining particles: 225, at 174
+Particle 23 is dead, Remaining particles: 216, at 183
+Particle 33 is dead, Remaining particles: 213, at 186
+Particle 70 is dead, Remaining particles: 207, at 189
+Particle 65 is dead, Remaining particles: 214, at 185
+Particle 176 is dead, Remaining particles: 212, at 188
+Particle 14 is dead, Remaining particles: 210, at 190
+Particle 154 is dead, Remaining particles: 209, at 192
+Particle 292 is dead, Remaining particles: 215, at 184
+Particle 271 is dead, Remaining particles: 211, at 187
+Particle 149 is dead, Remaining particles: 208, at 191
+Particle 189 is dead, Remaining particles: 206, at 193
+Particle 269 is dead, Remaining particles: 205, at 194
+Particle 166 is dead, Remaining particles: 202, at 197
+Particle 286 is dead, Remaining particles: 201, at 198
+Particle 147 is dead, Remaining particles: 203, at 196
+Particle 387 is dead, Remaining particles: 204, at 195
+Particle 34 is dead, Remaining particles: 198, at 200
+Particle 78 is dead, Remaining particles: 199, at 201
+Particle 198 is dead, Remaining particles: 196, at 203
+Particle 120 is dead, Remaining particles: 190, at 209
+Particle 317 is dead, Remaining particles: 200, at 199
+Particle 144 is dead, Remaining particles: 193, at 206
+Particle 364 is dead, Remaining particles: 194, at 205
+Particle 71 is dead, Remaining particles: 192, at 207
+Particle 311 is dead, Remaining particles: 191, at 208
+Particle 230 is dead, Remaining particles: 195, at 204
+Particle 370 is dead, Remaining particles: 197, at 202
+Particle 327 is dead, Remaining particles: 189, at 210
+Particle 387 is dead, Remaining particles: 188, at 211
+Particle 17 is dead, Remaining particles: 187, at 212
+Particle 124 is dead, Remaining particles: 184, at 215
+Particle 264 is dead, Remaining particles: 183, at 216
+Particle 81 is dead, Remaining particles: 186, at 213
+Particle 241 is dead, Remaining particles: 185, at 214
+Particle 235 is dead, Remaining particles: 182, at 217
+Particle 330 is dead, Remaining particles: 181, at 218
+Particle 387 is dead, Remaining particles: 180, at 219
+Particle 82 is dead, Remaining particles: 175, at 224
+Particle 24 is dead, Remaining particles: 179, at 220
+Particle 84 is dead, Remaining particles: 177, at 222
+Particle 119 is dead, Remaining particles: 174, at 226
+Particle 155 is dead, Remaining particles: 173, at 225
+Particle 13 is dead, Remaining particles: 169, at 230
+Particle 113 is dead, Remaining particles: 168, at 231
+Particle 165 is dead, Remaining particles: 170, at 227
+Particle 101 is dead, Remaining particles: 178, at 221
+Particle 121 is dead, Remaining particles: 176, at 223
+Particle 91 is dead, Remaining particles: 172, at 228
+Particle 191 is dead, Remaining particles: 171, at 229
+Particle 248 is dead, Remaining particles: 164, at 235
+Particle 300 is dead, Remaining particles: 165, at 232
+Particle 96 is dead, Remaining particles: 166, at 234
+Particle 336 is dead, Remaining particles: 167, at 233
+Particle 9 is dead, Remaining particles: 162, at 237
+Particle 129 is dead, Remaining particles: 161, at 238
+Particle 387 is dead, Remaining particles: 163, at 236
+Particle 161 is dead, Remaining particles: 160, at 239
+Particle 172 is dead, Remaining particles: 158, at 241
+Particle 210 is dead, Remaining particles: 159, at 240
+Particle 254 is dead, Remaining particles: 153, at 246
+Particle 354 is dead, Remaining particles: 154, at 245
+Particle 268 is dead, Remaining particles: 148, at 251
+Particle 288 is dead, Remaining particles: 147, at 252
+Particle 375 is dead, Remaining particles: 157, at 242
+Particle 63 is dead, Remaining particles: 156, at 243
+Particle 323 is dead, Remaining particles: 155, at 244
+Particle 220 is dead, Remaining particles: 151, at 248
+Particle 320 is dead, Remaining particles: 152, at 247
+Particle 67 is dead, Remaining particles: 150, at 249
+Particle 387 is dead, Remaining particles: 149, at 250
+Particle 226 is dead, Remaining particles: 144, at 255
+Particle 326 is dead, Remaining particles: 146, at 253
+Particle 366 is dead, Remaining particles: 145, at 254
+Particle 125 is dead, Remaining particles: 142, at 257
+Particle 88 is dead, Remaining particles: 132, at 267
+Particle 94 is dead, Remaining particles: 141, at 258
+Particle 134 is dead, Remaining particles: 140, at 259
+Particle 159 is dead, Remaining particles: 137, at 262
+Particle 167 is dead, Remaining particles: 133, at 266
+Particle 390 is dead, Remaining particles: 143, at 256
+Particle 135 is dead, Remaining particles: 135, at 264
+Particle 315 is dead, Remaining particles: 134, at 265
+Particle 375 is dead, Remaining particles: 136, at 263
+Particle 263 is dead, Remaining particles: 138, at 261
+Particle 363 is dead, Remaining particles: 139, at 260
+Particle 369 is dead, Remaining particles: 131, at 268
+Particle 183 is dead, Remaining particles: 130, at 269
+Particle 25 is dead, Remaining particles: 126, at 273
+Particle 51 is dead, Remaining particles: 129, at 270
+Particle 293 is dead, Remaining particles: 127, at 272
+Particle 368 is dead, Remaining particles: 125, at 274
+Particle 382 is dead, Remaining particles: 128, at 271
+Particle 12 is dead, Remaining particles: 119, at 279
+Particle 105 is dead, Remaining particles: 122, at 277
+Particle 133 is dead, Remaining particles: 118, at 281
+Particle 160 is dead, Remaining particles: 114, at 285
+Particle 216 is dead, Remaining particles: 117, at 282
+Particle 58 is dead, Remaining particles: 116, at 283
+Particle 258 is dead, Remaining particles: 115, at 284
+Particle 255 is dead, Remaining particles: 121, at 278
+Particle 275 is dead, Remaining particles: 120, at 280
+Particle 324 is dead, Remaining particles: 124, at 275
+Particle 334 is dead, Remaining particles: 123, at 276
+Particle 18 is dead, Remaining particles: 103, at 296
+Particle 6 is dead, Remaining particles: 97, at 302
+Particle 60 is dead, Remaining particles: 104, at 295
+Particle 99 is dead, Remaining particles: 105, at 294
+Particle 111 is dead, Remaining particles: 110, at 287
+Particle 93 is dead, Remaining particles: 106, at 292
+Particle 294 is dead, Remaining particles: 113, at 286
+Particle 188 is dead, Remaining particles: 102, at 297
+Particle 32 is dead, Remaining particles: 99, at 300
+Particle 92 is dead, Remaining particles: 98, at 301
+Particle 309 is dead, Remaining particles: 107, at 291
+Particle 42 is dead, Remaining particles: 109, at 290
+Particle 222 is dead, Remaining particles: 108, at 293
+Particle 45 is dead, Remaining particles: 112, at 288
+Particle 365 is dead, Remaining particles: 111, at 289
+Particle 316 is dead, Remaining particles: 100, at 299
+Particle 376 is dead, Remaining particles: 101, at 298
+Particle 224 is dead, Remaining particles: 95, at 304
+Particle 242 is dead, Remaining particles: 96, at 303
+Particle 272 is dead, Remaining particles: 92, at 307
+Particle 374 is dead, Remaining particles: 93, at 306
+Particle 381 is dead, Remaining particles: 94, at 305
+Particle 400 is dead, Remaining particles: 91, at 308
+Particle 319 is dead, Remaining particles: 89, at 310
+Particle 393 is dead, Remaining particles: 90, at 309
+Particle 349 is dead, Remaining particles: 88, at 311
+Particle 40 is dead, Remaining particles: 84, at 315
+Particle 212 is dead, Remaining particles: 87, at 312
+Particle 157 is dead, Remaining particles: 83, at 316
+Particle 27 is dead, Remaining particles: 82, at 317
+Particle 107 is dead, Remaining particles: 81, at 318
+Particle 146 is dead, Remaining particles: 80, at 319
+Particle 381 is dead, Remaining particles: 86, at 313
+Particle 393 is dead, Remaining particles: 85, at 314
+Particle 38 is dead, Remaining particles: 76, at 323
+Particle 145 is dead, Remaining particles: 79, at 320
+Particle 143 is dead, Remaining particles: 78, at 321
+Particle 127 is dead, Remaining particles: 69, at 330
+Particle 152 is dead, Remaining particles: 75, at 324
+Particle 240 is dead, Remaining particles: 73, at 326
+Particle 348 is dead, Remaining particles: 72, at 327
+Particle 331 is dead, Remaining particles: 77, at 322
+Particle 329 is dead, Remaining particles: 74, at 325
+Particle 333 is dead, Remaining particles: 71, at 328
+Particle 393 is dead, Remaining particles: 70, at 329
+Particle 2 is dead, Remaining particles: 68, at 331
+Particle 55 is dead, Remaining particles: 66, at 333
+Particle 52 is dead, Remaining particles: 67, at 332
+Particle 110 is dead, Remaining particles: 65, at 334
+Particle 277 is dead, Remaining particles: 61, at 338
+Particle 281 is dead, Remaining particles: 64, at 335
+Particle 208 is dead, Remaining particles: 62, at 337
+Particle 328 is dead, Remaining particles: 63, at 336
+Particle 393 is dead, Remaining particles: 60, at 339
+Particle 351 is dead, Remaining particles: 58, at 341
+Particle 379 is dead, Remaining particles: 59, at 340
+Particle 1 is dead, Remaining particles: 57, at 342
+Particle 138 is dead, Remaining particles: 55, at 343
+Particle 131 is dead, Remaining particles: 50, at 349
+Particle 171 is dead, Remaining particles: 49, at 350
+Particle 260 is dead, Remaining particles: 52, at 347
+Particle 280 is dead, Remaining particles: 51, at 348
+Particle 393 is dead, Remaining particles: 54, at 344
+Particle 95 is dead, Remaining particles: 53, at 346
+Particle 375 is dead, Remaining particles: 56, at 345
+Particle 169 is dead, Remaining particles: 48, at 351
+Particle 249 is dead, Remaining particles: 47, at 352
+Particle 117 is dead, Remaining particles: 44, at 355
+Particle 53 is dead, Remaining particles: 45, at 354
+Particle 244 is dead, Remaining particles: 46, at 353
+Particle 47 is dead, Remaining particles: 43, at 356
+Particle 387 is dead, Remaining particles: 42, at 357
+Particle 83 is dead, Remaining particles: 40, at 359
+Particle 75 is dead, Remaining particles: 41, at 358
+Particle 308 is dead, Remaining particles: 39, at 360
+Particle 297 is dead, Remaining particles: 37, at 362
+Particle 356 is dead, Remaining particles: 36, at 363
+Particle 318 is dead, Remaining particles: 38, at 361
+Particle 266 is dead, Remaining particles: 35, at 364
+Particle 389 is dead, Remaining particles: 34, at 365
+Particle 185 is dead, Remaining particles: 33, at 366
+Particle 207 is dead, Remaining particles: 32, at 367
+Particle 109 is dead, Remaining particles: 29, at 369
+Particle 104 is dead, Remaining particles: 28, at 370
+Particle 48 is dead, Remaining particles: 30, at 371
+Particle 108 is dead, Remaining particles: 27, at 372
+Particle 177 is dead, Remaining particles: 31, at 368
+Particle 20 is dead, Remaining particles: 26, at 373
+Particle 200 is dead, Remaining particles: 25, at 374
+Particle 290 is dead, Remaining particles: 22, at 377
+Particle 389 is dead, Remaining particles: 21, at 378
+Particle 339 is dead, Remaining particles: 24, at 375
+Particle 399 is dead, Remaining particles: 23, at 376
+Particle 15 is dead, Remaining particles: 20, at 379
+Particle 7 is dead, Remaining particles: 18, at 381
+Particle 378 is dead, Remaining particles: 19, at 380
+Particle 206 is dead, Remaining particles: 16, at 383
+Particle 256 is dead, Remaining particles: 15, at 384
+Particle 393 is dead, Remaining particles: 17, at 382
+Particle 79 is dead, Remaining particles: 14, at 385
+Particle 399 is dead, Remaining particles: 13, at 386
+Particle 196 is dead, Remaining particles: 9, at 390
+Particle 190 is dead, Remaining particles: 7, at 392
+Particle 343 is dead, Remaining particles: 11, at 388
+Particle 302 is dead, Remaining particles: 12, at 387
+Particle 367 is dead, Remaining particles: 10, at 389
+Particle 399 is dead, Remaining particles: 8, at 391
+Particle 209 is dead, Remaining particles: 6, at 393
+Particle 30 is dead, Remaining particles: -1, at 400
+Particle 16 is dead, Remaining particles: 0, at 399
+Particle 151 is dead, Remaining particles: 4, at 395
+Particle 357 is dead, Remaining particles: 5, at 394
+Particle 238 is dead, Remaining particles: 3, at 396
+Particle 314 is dead, Remaining particles: 1, at 398
+Particle 347 is dead, Remaining particles: 2, at 397
+Particle 399 is dead, Remaining particles: -2, at 401
+Particle 39 is dead, Remaining particles: -6, at 405
+Particle 126 is dead, Remaining particles: -7, at 406
+Particle 234 is dead, Remaining particles: -5, at 404
+Particle 350 is dead, Remaining particles: -4, at 403
+Particle 393 is dead, Remaining particles: -3, at 402
+Particle 46 is dead, Remaining particles: -11, at 410
+Particle 253 is dead, Remaining particles: -10, at 409
+Particle 296 is dead, Remaining particles: -9, at 408
+Particle 372 is dead, Remaining particles: -8, at 407
+Particle 90 is dead, Remaining particles: -13, at 412
+Particle 184 is dead, Remaining particles: -12, at 411
+Particle 106 is dead, Remaining particles: -15, at 414
+Particle 233 is dead, Remaining particles: -14, at 413
+Particle 399 is dead, Remaining particles: -16, at 415
+Particle 346 is dead, Remaining particles: -17, at 416
+Particle 345 is dead, Remaining particles: -18, at 417
+Particle 68 is dead, Remaining particles: -19, at 418
+CUDA error: no error
+CUDA error: no error
+CUDA error: no error
+Final particle count is: -19
+Particle 399 at coordinates 1152, 223 is alive 0
+Particle 400 at coordinates 729, -9 is alive 0
+Particle 397 at coordinates -16, 351 is alive 0
+Particle 396 at coordinates 1041, 205 is alive 0
+Particle 395 at coordinates -3, 750 is alive 0
+Particle 394 at coordinates 270, 1027 is alive 0
+Particle 393 at coordinates 1177, 866 is alive 0
+Particle 395 at coordinates -16, 746 is alive 0
+Particle 391 at coordinates 81, 1045 is alive 0
+Particle 390 at coordinates 475, -12 is alive 0
+Particle index at 399 with id 16 has been dealocated 1 times
+Particle index at 398 with id 314 has been dealocated 1 times
+Particle index at 397 with id 347 has been dealocated 1 times
+Particle index at 396 with id 238 has been dealocated 1 times
+Particle index at 395 with id 151 has been dealocated 1 times
+Particle index at 394 with id 357 has been dealocated 1 times
+Particle index at 393 with id 209 has been dealocated 1 times
+Particle index at 392 with id 190 has been dealocated 1 times
+Particle index at 391 with id 399 has been dealocated 3 times
+Particle index at 390 with id 196 has been dealocated 1 times
+Particle index at 389 with id 367 has been dealocated 1 times
+Particle index at 388 with id 343 has been dealocated 1 times
+Particle index at 387 with id 302 has been dealocated 1 times
+Particle index at 386 with id 399 has been dealocated 3 times
+Particle index at 385 with id 79 has been dealocated 1 times
+Particle index at 384 with id 256 has been dealocated 1 times
+Particle index at 383 with id 206 has been dealocated 1 times
+Particle index at 382 with id 393 has been dealocated 7 times
+Particle index at 381 with id 7 has been dealocated 1 times
+Particle index at 380 with id 378 has been dealocated 1 times
+Particle index at 379 with id 15 has been dealocated 1 times
+Particle index at 378 with id 389 has been dealocated 2 times
+Particle index at 377 with id 290 has been dealocated 1 times
+Particle index at 376 with id 399 has been dealocated 3 times
+Particle index at 375 with id 339 has been dealocated 1 times
+Particle index at 374 with id 200 has been dealocated 1 times
+Particle index at 373 with id 20 has been dealocated 1 times
+Particle index at 372 with id 108 has been dealocated 1 times
+Particle index at 371 with id 48 has been dealocated 1 times
+Particle index at 370 with id 104 has been dealocated 1 times
+Particle index at 369 with id 109 has been dealocated 1 times
+Particle index at 368 with id 177 has been dealocated 1 times
+Particle index at 367 with id 207 has been dealocated 1 times
+Particle index at 366 with id 185 has been dealocated 1 times
+Particle index at 365 with id 389 has been dealocated 2 times
+Particle index at 364 with id 266 has been dealocated 1 times
+Particle index at 363 with id 356 has been dealocated 1 times
+Particle index at 362 with id 297 has been dealocated 1 times
+Particle index at 361 with id 318 has been dealocated 1 times
+Particle index at 360 with id 308 has been dealocated 1 times
+Particle index at 359 with id 83 has been dealocated 1 times
+Particle index at 358 with id 75 has been dealocated 1 times
+Particle index at 357 with id 387 has been dealocated 6 times
+Particle index at 356 with id 47 has been dealocated 1 times
+Particle index at 355 with id 117 has been dealocated 1 times
+Particle index at 354 with id 53 has been dealocated 1 times
+Particle index at 353 with id 244 has been dealocated 1 times
+Particle index at 352 with id 249 has been dealocated 1 times
+Particle index at 351 with id 169 has been dealocated 1 times
+Particle index at 350 with id 171 has been dealocated 1 times
+Particle index at 349 with id 131 has been dealocated 1 times
+Particle index at 348 with id 280 has been dealocated 1 times
+Particle index at 347 with id 260 has been dealocated 1 times
+Particle index at 346 with id 95 has been dealocated 1 times
+Particle index at 345 with id 375 has been dealocated 4 times
+Particle index at 344 with id 393 has been dealocated 7 times
+Particle index at 343 with id 138 has been dealocated 1 times
+Particle index at 342 with id 1 has been dealocated 1 times
+Particle index at 341 with id 351 has been dealocated 1 times
+Particle index at 340 with id 379 has been dealocated 1 times
+Particle index at 339 with id 393 has been dealocated 7 times
+Particle index at 338 with id 277 has been dealocated 1 times
+Particle index at 337 with id 208 has been dealocated 1 times
+Particle index at 336 with id 328 has been dealocated 1 times
+Particle index at 335 with id 281 has been dealocated 1 times
+Particle index at 334 with id 110 has been dealocated 1 times
+Particle index at 333 with id 55 has been dealocated 1 times
+Particle index at 332 with id 52 has been dealocated 1 times
+Particle index at 331 with id 2 has been dealocated 1 times
+Particle index at 330 with id 127 has been dealocated 1 times
+Particle index at 329 with id 393 has been dealocated 7 times
+Particle index at 328 with id 333 has been dealocated 1 times
+Particle index at 327 with id 348 has been dealocated 1 times
+Particle index at 326 with id 240 has been dealocated 1 times
+Particle index at 325 with id 329 has been dealocated 1 times
+Particle index at 324 with id 152 has been dealocated 1 times
+Particle index at 323 with id 38 has been dealocated 1 times
+Particle index at 322 with id 331 has been dealocated 1 times
+Particle index at 321 with id 143 has been dealocated 1 times
+Particle index at 320 with id 145 has been dealocated 1 times
+Particle index at 319 with id 146 has been dealocated 1 times
+Particle index at 318 with id 107 has been dealocated 1 times
+Particle index at 317 with id 27 has been dealocated 1 times
+Particle index at 316 with id 157 has been dealocated 1 times
+Particle index at 315 with id 40 has been dealocated 1 times
+Particle index at 314 with id 393 has been dealocated 7 times
+Particle index at 313 with id 381 has been dealocated 2 times
+Particle index at 312 with id 212 has been dealocated 1 times
+Particle index at 311 with id 349 has been dealocated 1 times
+Particle index at 310 with id 319 has been dealocated 1 times
+Particle index at 309 with id 393 has been dealocated 7 times
+Particle index at 308 with id 400 has been dealocated 1 times
+Particle index at 307 with id 272 has been dealocated 1 times
+Particle index at 306 with id 374 has been dealocated 1 times
+Particle index at 305 with id 381 has been dealocated 2 times
+Particle index at 304 with id 224 has been dealocated 1 times
+Particle index at 303 with id 242 has been dealocated 1 times
+Particle index at 302 with id 6 has been dealocated 1 times
+Particle index at 301 with id 92 has been dealocated 1 times
+Particle index at 300 with id 32 has been dealocated 1 times
+Particle index at 299 with id 316 has been dealocated 1 times
+Particle index at 298 with id 376 has been dealocated 1 times
+Particle index at 297 with id 188 has been dealocated 1 times
+Particle index at 296 with id 18 has been dealocated 1 times
+Particle index at 295 with id 60 has been dealocated 1 times
+Particle index at 294 with id 99 has been dealocated 1 times
+Particle index at 293 with id 222 has been dealocated 1 times
+Particle index at 292 with id 93 has been dealocated 1 times
+Particle index at 291 with id 309 has been dealocated 1 times
+Particle index at 290 with id 42 has been dealocated 1 times
+Particle index at 289 with id 365 has been dealocated 1 times
+Particle index at 288 with id 45 has been dealocated 1 times
+Particle index at 287 with id 111 has been dealocated 1 times
+Particle index at 286 with id 294 has been dealocated 1 times
+Particle index at 285 with id 160 has been dealocated 1 times
+Particle index at 284 with id 258 has been dealocated 1 times
+Particle index at 283 with id 58 has been dealocated 1 times
+Particle index at 282 with id 216 has been dealocated 1 times
+Particle index at 281 with id 133 has been dealocated 1 times
+Particle index at 280 with id 275 has been dealocated 1 times
+Particle index at 279 with id 12 has been dealocated 1 times
+Particle index at 278 with id 255 has been dealocated 1 times
+Particle index at 277 with id 105 has been dealocated 1 times
+Particle index at 276 with id 334 has been dealocated 1 times
+Particle index at 275 with id 324 has been dealocated 1 times
+Particle index at 274 with id 368 has been dealocated 1 times
+Particle index at 273 with id 25 has been dealocated 1 times
+Particle index at 272 with id 293 has been dealocated 1 times
+Particle index at 271 with id 382 has been dealocated 2 times
+Particle index at 270 with id 51 has been dealocated 1 times
+Particle index at 269 with id 183 has been dealocated 1 times
+Particle index at 268 with id 369 has been dealocated 1 times
+Particle index at 267 with id 88 has been dealocated 1 times
+Particle index at 266 with id 167 has been dealocated 1 times
+Particle index at 265 with id 315 has been dealocated 1 times
+Particle index at 264 with id 135 has been dealocated 1 times
+Particle index at 263 with id 375 has been dealocated 4 times
+Particle index at 262 with id 159 has been dealocated 1 times
+Particle index at 261 with id 263 has been dealocated 1 times
+Particle index at 260 with id 363 has been dealocated 1 times
+Particle index at 259 with id 134 has been dealocated 1 times
+Particle index at 258 with id 94 has been dealocated 1 times
+Particle index at 257 with id 125 has been dealocated 1 times
+Particle index at 256 with id 390 has been dealocated 1 times
+Particle index at 255 with id 226 has been dealocated 1 times
+Particle index at 254 with id 366 has been dealocated 1 times
+Particle index at 253 with id 326 has been dealocated 1 times
+Particle index at 252 with id 288 has been dealocated 1 times
+Particle index at 251 with id 268 has been dealocated 1 times
+Particle index at 250 with id 387 has been dealocated 6 times
+Particle index at 249 with id 67 has been dealocated 1 times
+Particle index at 248 with id 220 has been dealocated 1 times
+Particle index at 247 with id 320 has been dealocated 1 times
+Particle index at 246 with id 254 has been dealocated 1 times
+Particle index at 245 with id 354 has been dealocated 1 times
+Particle index at 244 with id 323 has been dealocated 1 times
+Particle index at 243 with id 63 has been dealocated 1 times
+Particle index at 242 with id 375 has been dealocated 4 times
+Particle index at 241 with id 172 has been dealocated 1 times
+Particle index at 240 with id 210 has been dealocated 1 times
+Particle index at 239 with id 161 has been dealocated 1 times
+Particle index at 238 with id 129 has been dealocated 1 times
+Particle index at 237 with id 9 has been dealocated 1 times
+Particle index at 236 with id 387 has been dealocated 6 times
+Particle index at 235 with id 248 has been dealocated 1 times
+Particle index at 234 with id 96 has been dealocated 1 times
+Particle index at 233 with id 336 has been dealocated 1 times
+Particle index at 232 with id 300 has been dealocated 1 times
+Particle index at 231 with id 113 has been dealocated 1 times
+Particle index at 230 with id 13 has been dealocated 1 times
+Particle index at 229 with id 191 has been dealocated 1 times
+Particle index at 228 with id 91 has been dealocated 1 times
+Particle index at 227 with id 165 has been dealocated 1 times
+Particle index at 226 with id 119 has been dealocated 1 times
+Particle index at 225 with id 155 has been dealocated 1 times
+Particle index at 224 with id 82 has been dealocated 1 times
+Particle index at 223 with id 121 has been dealocated 1 times
+Particle index at 222 with id 84 has been dealocated 1 times
+Particle index at 221 with id 101 has been dealocated 1 times
+Particle index at 220 with id 24 has been dealocated 1 times
+Particle index at 219 with id 387 has been dealocated 6 times
+Particle index at 218 with id 330 has been dealocated 1 times
+Particle index at 217 with id 235 has been dealocated 1 times
+Particle index at 216 with id 264 has been dealocated 1 times
+Particle index at 215 with id 124 has been dealocated 1 times
+Particle index at 214 with id 241 has been dealocated 1 times
+Particle index at 213 with id 81 has been dealocated 1 times
+Particle index at 212 with id 17 has been dealocated 1 times
+Particle index at 211 with id 387 has been dealocated 6 times
+Particle index at 210 with id 327 has been dealocated 1 times
+Particle index at 209 with id 120 has been dealocated 1 times
+Particle index at 208 with id 311 has been dealocated 1 times
+Particle index at 207 with id 71 has been dealocated 1 times
+Particle index at 206 with id 144 has been dealocated 1 times
+Particle index at 205 with id 364 has been dealocated 1 times
+Particle index at 204 with id 230 has been dealocated 1 times
+Particle index at 203 with id 198 has been dealocated 1 times
+Particle index at 202 with id 370 has been dealocated 1 times
+Particle index at 201 with id 78 has been dealocated 1 times
+Particle index at 200 with id 34 has been dealocated 1 times
+Particle index at 199 with id 317 has been dealocated 1 times
+Particle index at 198 with id 286 has been dealocated 1 times
+Particle index at 197 with id 166 has been dealocated 1 times
+Particle index at 196 with id 147 has been dealocated 1 times
+Particle index at 195 with id 387 has been dealocated 6 times
+Particle index at 194 with id 269 has been dealocated 1 times
+Particle index at 193 with id 189 has been dealocated 1 times
+Particle index at 192 with id 154 has been dealocated 1 times
+Particle index at 191 with id 149 has been dealocated 1 times
+Particle index at 190 with id 14 has been dealocated 1 times
+Particle index at 189 with id 70 has been dealocated 1 times
+Particle index at 188 with id 176 has been dealocated 1 times
+Particle index at 187 with id 271 has been dealocated 1 times
+Particle index at 186 with id 33 has been dealocated 1 times
+Particle index at 185 with id 65 has been dealocated 1 times
+Particle index at 184 with id 292 has been dealocated 1 times
+Particle index at 183 with id 23 has been dealocated 1 times
+Particle index at 182 with id 214 has been dealocated 1 times
+Particle index at 181 with id 174 has been dealocated 1 times
+Particle index at 180 with id 26 has been dealocated 1 times
+Particle index at 179 with id 382 has been dealocated 2 times
+Particle index at 178 with id 153 has been dealocated 1 times
+Particle index at 177 with id 192 has been dealocated 1 times
+Particle index at 176 with id 112 has been dealocated 1 times
+Particle index at 175 with id 50 has been dealocated 1 times
+Particle index at 174 with id 352 has been dealocated 1 times
+Particle index at 173 with id 203 has been dealocated 1 times
+Particle index at 172 with id 115 has been dealocated 1 times
+Particle index at 171 with id 158 has been dealocated 1 times
+Particle index at 170 with id 35 has been dealocated 1 times
+Particle index at 169 with id 251 has been dealocated 1 times
+Particle index at 168 with id 299 has been dealocated 1 times
+Particle index at 167 with id 199 has been dealocated 1 times
+Particle index at 166 with id 325 has been dealocated 1 times
+Particle index at 165 with id 202 has been dealocated 1 times
+Particle index at 164 with id 54 has been dealocated 1 times
+Particle index at 163 with id 289 has been dealocated 1 times
+Particle index at 162 with id 73 has been dealocated 1 times
+Particle index at 161 with id 388 has been dealocated 1 times
+Particle index at 160 with id 136 has been dealocated 1 times
+Particle index at 159 with id 337 has been dealocated 1 times
+Particle index at 158 with id 77 has been dealocated 1 times
+Particle index at 157 with id 223 has been dealocated 1 times
+Particle index at 156 with id 141 has been dealocated 1 times
+Particle index at 155 with id 132 has been dealocated 1 times
+Particle index at 154 with id 72 has been dealocated 1 times
+Particle index at 153 with id 229 has been dealocated 1 times
+Particle index at 152 with id 394 has been dealocated 1 times
+Particle index at 151 with id 150 has been dealocated 1 times
+Particle index at 150 with id 173 has been dealocated 1 times
+Particle index at 149 with id 123 has been dealocated 1 times
+Particle index at 148 with id 181 has been dealocated 1 times
+Particle index at 147 with id 237 has been dealocated 1 times
+Particle index at 146 with id 305 has been dealocated 1 times
+Particle index at 145 with id 341 has been dealocated 1 times
+Particle index at 144 with id 262 has been dealocated 1 times
+Particle index at 143 with id 312 has been dealocated 1 times
+Particle index at 142 with id 8 has been dealocated 1 times
+Particle index at 141 with id 287 has been dealocated 1 times
+Particle index at 140 with id 56 has been dealocated 1 times
+Particle index at 139 with id 118 has been dealocated 1 times
+Particle index at 138 with id 211 has been dealocated 1 times
+Particle index at 137 with id 43 has been dealocated 1 times
+Particle index at 136 with id 225 has been dealocated 1 times
+Particle index at 135 with id 384 has been dealocated 1 times
+Particle index at 134 with id 259 has been dealocated 1 times
+Particle index at 133 with id 362 has been dealocated 1 times
+Particle index at 132 with id 69 has been dealocated 1 times
+Particle index at 131 with id 228 has been dealocated 1 times
+Particle index at 130 with id 232 has been dealocated 1 times
+Particle index at 129 with id 213 has been dealocated 1 times
+Particle index at 128 with id 276 has been dealocated 1 times
+Particle index at 127 with id 156 has been dealocated 1 times
+Particle index at 126 with id 358 has been dealocated 1 times
+Particle index at 125 with id 221 has been dealocated 1 times
+Particle index at 124 with id 217 has been dealocated 1 times
+Particle index at 123 with id 114 has been dealocated 1 times
+Particle index at 122 with id 86 has been dealocated 1 times
+Particle index at 121 with id 307 has been dealocated 1 times
+Particle index at 120 with id 175 has been dealocated 1 times
+Particle index at 119 with id 395 has been dealocated 1 times
+Particle index at 118 with id 355 has been dealocated 1 times
+Particle index at 117 with id 245 has been dealocated 1 times
+Particle index at 116 with id 385 has been dealocated 1 times
+Particle index at 115 with id 310 has been dealocated 1 times
+Particle index at 114 with id 31 has been dealocated 1 times
+Particle index at 113 with id 139 has been dealocated 1 times
+Particle index at 112 with id 304 has been dealocated 1 times
+Particle index at 111 with id 29 has been dealocated 1 times
+Particle index at 110 with id 197 has been dealocated 1 times
+Particle index at 109 with id 377 has been dealocated 1 times
+Particle index at 108 with id 298 has been dealocated 1 times
+Particle index at 107 with id 195 has been dealocated 1 times
+Particle index at 106 with id 204 has been dealocated 1 times
+Particle index at 105 with id 41 has been dealocated 1 times
+Particle index at 104 with id 128 has been dealocated 1 times
+Particle index at 103 with id 0 has been dealocated 1 times
+Particle index at 102 with id 283 has been dealocated 1 times
+Particle index at 101 with id 396 has been dealocated 1 times
+Particle index at 100 with id 162 has been dealocated 1 times
+Particle index at 99 with id 278 has been dealocated 1 times
+Particle index at 98 with id 227 has been dealocated 1 times
+Particle index at 97 with id 375 has been dealocated 4 times
+Particle index at 96 with id 291 has been dealocated 1 times
+Particle index at 95 with id 371 has been dealocated 1 times
+Particle index at 94 with id 130 has been dealocated 1 times
+Particle index at 93 with id 89 has been dealocated 1 times
+Particle index at 92 with id 201 has been dealocated 1 times
+Particle index at 91 with id 321 has been dealocated 1 times
+Particle index at 90 with id 116 has been dealocated 1 times
+Particle index at 89 with id 44 has been dealocated 1 times
+Particle index at 88 with id 59 has been dealocated 1 times
+Particle index at 87 with id 100 has been dealocated 1 times
+Particle index at 86 with id 243 has been dealocated 1 times
+Particle index at 85 with id 322 has been dealocated 1 times
+Particle index at 84 with id 301 has been dealocated 1 times
+Particle index at 83 with id 218 has been dealocated 1 times
+Particle index at 82 with id 361 has been dealocated 1 times
+Particle index at 81 with id 98 has been dealocated 1 times
+Particle index at 80 with id 215 has been dealocated 1 times
+Particle index at 79 with id 140 has been dealocated 1 times
+Particle index at 78 with id 340 has been dealocated 1 times
+Particle index at 77 with id 168 has been dealocated 1 times
+Particle index at 76 with id 186 has been dealocated 1 times
+Particle index at 75 with id 282 has been dealocated 1 times
+Particle index at 74 with id 102 has been dealocated 1 times
+Particle index at 73 with id 10 has been dealocated 1 times
+Particle index at 72 with id 187 has been dealocated 1 times
+Particle index at 71 with id 193 has been dealocated 1 times
+Particle index at 70 with id 284 has been dealocated 1 times
+Particle index at 69 with id 57 has been dealocated 1 times
+Particle index at 68 with id 306 has been dealocated 1 times
+Particle index at 67 with id 274 has been dealocated 1 times
+Particle index at 66 with id 21 has been dealocated 1 times
+Particle index at 65 with id 219 has been dealocated 1 times
+Particle index at 64 with id 359 has been dealocated 1 times
+Particle index at 63 with id 393 has been dealocated 7 times
+Particle index at 62 with id 285 has been dealocated 1 times
+Particle index at 61 with id 85 has been dealocated 1 times
+Particle index at 60 with id 313 has been dealocated 1 times
+Particle index at 59 with id 164 has been dealocated 1 times
+Particle index at 58 with id 397 has been dealocated 1 times
+Particle index at 57 with id 342 has been dealocated 1 times
+Particle index at 56 with id 303 has been dealocated 1 times
+Particle index at 55 with id 279 has been dealocated 1 times
+Particle index at 54 with id 239 has been dealocated 1 times
+Particle index at 53 with id 179 has been dealocated 1 times
+Particle index at 52 with id 19 has been dealocated 1 times
+Particle index at 51 with id 295 has been dealocated 1 times
+Particle index at 50 with id 373 has been dealocated 1 times
+Particle index at 49 with id 353 has been dealocated 1 times
+Particle index at 48 with id 265 has been dealocated 1 times
+Particle index at 47 with id 182 has been dealocated 1 times
+Particle index at 46 with id 180 has been dealocated 1 times
+Particle index at 45 with id 80 has been dealocated 1 times
+Particle index at 44 with id 4 has been dealocated 1 times
+Particle index at 43 with id 267 has been dealocated 1 times
+Particle index at 42 with id 163 has been dealocated 1 times
+Particle index at 41 with id 273 has been dealocated 1 times
+Particle index at 40 with id 338 has been dealocated 1 times
+Particle index at 39 with id 344 has been dealocated 1 times
+Particle index at 38 with id 64 has been dealocated 1 times
+Particle index at 37 with id 148 has been dealocated 1 times
+Particle index at 36 with id 205 has been dealocated 1 times
+Particle index at 35 with id 170 has been dealocated 1 times
+Particle index at 34 with id 194 has been dealocated 1 times
+Particle index at 33 with id 22 has been dealocated 1 times
+Particle index at 32 with id 252 has been dealocated 1 times
+Particle index at 31 with id 66 has been dealocated 1 times
+Particle index at 30 with id 5 has been dealocated 1 times
+Particle index at 29 with id 335 has been dealocated 1 times
+Particle index at 28 with id 257 has been dealocated 1 times
+Particle index at 27 with id 137 has been dealocated 1 times
+Particle index at 26 with id 122 has been dealocated 1 times
+Particle index at 25 with id 247 has been dealocated 1 times
+Particle index at 24 with id 62 has been dealocated 1 times
+Particle index at 23 with id 76 has been dealocated 1 times
+Particle index at 22 with id 36 has been dealocated 1 times
+Particle index at 21 with id 11 has been dealocated 1 times
+Particle index at 20 with id 360 has been dealocated 1 times
+Particle index at 19 with id 250 has been dealocated 1 times
+Particle index at 18 with id 28 has been dealocated 1 times
+Particle index at 17 with id 178 has been dealocated 1 times
+Particle index at 16 with id 103 has been dealocated 1 times
+Particle index at 15 with id 231 has been dealocated 1 times
+Particle index at 14 with id 391 has been dealocated 1 times
+Particle index at 13 with id 261 has been dealocated 1 times
+Particle index at 12 with id 97 has been dealocated 1 times
+Particle index at 11 with id 61 has been dealocated 1 times
+Particle index at 10 with id 37 has been dealocated 1 times
+Particle index at 9 with id 142 has been dealocated 1 times
+Particle index at 8 with id 246 has been dealocated 1 times
+Particle index at 7 with id 87 has been dealocated 1 times
+Particle index at 6 with id 383 has been dealocated 1 times
+Particle index at 5 with id 49 has been dealocated 1 times
+Particle index at 4 with id 270 has been dealocated 1 times
+Particle index at 3 with id 332 has been dealocated 1 times
+Particle index at 2 with id 3 has been dealocated 1 times
+Particle index at 1 with id 74 has been dealocated 1 times
+Particle index at 0 with id 236 has been dealocated 1 times
