@@ -63,19 +63,22 @@ using namespace std;
 //CUDA params 
 //BLOCKS and MAXSIZE should be related. 
 //Simplest case is BLOCKS*BLOCKS=MAXSIZE.
-const int BLOCKS = 32;
+const int PBLOCKS = 32;
+// BLOCKJS for evolving Cells
+// Simplest case is CBLOCKS*CBLOCKS =CELLX*CELLY
+const int CBLOCKS = 32;
 
 //Simulation Parameters
 //Emisivity - default is particles/square/second
 //this amounts to emit particles once every 300000m (speed of litght unit move)
-const double EMS = 100;
+const double EMS = 50;
 // max number of of particles per cell
 const int MAXP = 100;
 // max length of time interval 1s10e-MAXT before resampling direction
 const int MAXT = 10000;	
 //maximal number of total particles in simulator
-//const int MAXSIZE = 1048576;	
-const int MAXSIZE = 100;	
+//const int MAXPSIZE = 1048576;	
+const int MAXPSIZE = 1024;	
 //speed of particle
 const double V = 300000;
 // dt
@@ -83,26 +86,44 @@ const double ST = 0.0001;
 //distance of single step
 const int S = 30;
 //X and Y size of the whole 2D plane of simulation
-const int CELLX = 1024;
-const int CELLY = 1024;
+const float DIMX = 1024;
+const float DIMY = 1024;
 //number of cells in the plane, each smae geometry and dimensions
-const float CELLS = 32;
+const float CELLX = 32;
+const float CELLY = 32;
 #define PI 3.14159265
+
+//Boundary permeability
+#define PERMEABILITY 1
+
+//Should Particles annhilate
+#define ANNHILATION 0
+
+//Should there be refraction while entering new cells
+#define INTERACTION 0
+
+//Source numbers
+#define RADIATE 1
+
+//coordinates of the radiation source
+int radiate_x = 16;
+int radiate_y = 16;
 
 //int base_functions;
 // input file stream
-//static ifstream in_stream;	
+static ifstream in_stream;	
 // output file stream
-//static ofstream out_stream;	
+static ofstream out_stream;	
 
 typedef struct particle
 {
-//  coordinates within the scell
+//  coordinates within the whole space
+//  whole space is given by CELLX*CELLS*CELLY*CELLS
 	int x;		
 	int y;
 // id of the cell in the array
 	int id;
-//  final coordinates of this particles in the whole field
+// final coordinates of this particles in the whole field
 	int xf;
 	int yf;
 // direction vector of the particle - angle from origin
@@ -119,11 +140,14 @@ typedef struct particle
 typedef struct cell {
 	int x0;
 	int y0;
+	int id;
 	int pcount;
 	double temperature;
 	double ann;
 	double cre;
 	double emissivity;
+	int busy;
+	int radiant;
 } cell;
 
 
@@ -160,5 +184,5 @@ Lock lock;
 __global__ void propagate(Lock, particle*, cell*, curandState*, int*, int*, int*);
 __global__ void setup_kernel(particle*, unsigned long);
 __global__ void evolve_p_state(particle*, cell*, curandState*, int*, int*, int*);
-__global__ void evolve_c_state(particle*, cell*, curandState*, int*, int*);
+__global__ void evolve_c_state(particle*, cell*, curandState*, int*, int*, int*);
 
