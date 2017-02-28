@@ -62,9 +62,9 @@ using namespace std;
 
 //CUDA params 
 //BLOCKS and MAXSIZE should be related. 
-//Simplest case is BLOCKS*BLOCKS=MAXSIZE.
-const int PBLOCKS = 32;
-// BLOCKJS for evolving Cells
+//Simplest case is PBLOCKS*PBLOCKS=MAXSIZE.
+const int PBLOCKS = 16;
+// BLOCKS for evolving Cells
 // Simplest case is CBLOCKS*CBLOCKS =CELLX*CELLY
 const int CBLOCKS = 32;
 

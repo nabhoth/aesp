@@ -112,7 +112,7 @@ __global__ void propagate(Lock lock, particle *d_elements, cell *d_cell, curandS
 		int cellid1;
 //		double tempdir = 0;
     		if (atomicCAS(&p->alive,1,p->alive)> 0){
-			printf("PRP Particle %i at %i and %i with angle %f from Block %i with x=%i, y=%i and id=%i d index is %i\n",p->id, p->x, p->y, p->dir, cellid0, d_cell[cellid0].x0, d_cell[cellid0].y0, d_cell[cellid0].id, *d_index);
+			printf("Index %i of PRP Particle %i at %i and %i with angle %f from Block %i with x=%i, y=%i and id=%i d index is %i\n",id,p->id, p->x, p->y, p->dir, cellid0, d_cell[cellid0].x0, d_cell[cellid0].y0, d_cell[cellid0].id, *d_index);
 //    			if (p->speed == 0){
 //  			} else {
     				p->x = (int)(cos(p->dir)*p->s)+p->x;
@@ -260,6 +260,8 @@ int destroy_particle(particle *p){
 
 int main(){
 
+
+
 	h_index = MAXPSIZE;
 	int a,b = 0;
 	int memSize = MAXPSIZE*sizeof(curandState);
@@ -340,14 +342,14 @@ int main(){
 	printf("CUDA error: %s\n", cudaGetErrorString(cudaMemcpy(d_elements, h_elements, memSize, cudaMemcpyHostToDevice)));
 	//cudaDeviceSynchronize();
 
-	for (int p = 0; p< 100; p++){
+	for (int p = 0; p< 1000; p++){
 		propagate<<<PBLOCKS, PBLOCKS>>>(lock, d_elements, d_cells, globalstate, d_states, d_index, d_active);
 		setup_kernel <<<PBLOCKS, PBLOCKS >>>(globalstate, time(NULL));
 		if  (ANNHILATION > 0){
 			evolve_p_state<<<PBLOCKS, PBLOCKS>>>(d_elements, d_cells, globalstate, d_states, d_index, d_active);
 		}
 		setup_kernel <<<PBLOCKS, PBLOCKS >>>(globalstate, time(NULL));
-		evolve_c_state<<<CBLOCKS, CBLOCKS>>>(d_elements, d_cells, globalstate, d_states, d_index, d_active);
+	//	evolve_c_state<<<CBLOCKS, CBLOCKS>>>(d_elements, d_cells, globalstate, d_states, d_index, d_active);
 	}
 
 	memSize = MAXPSIZE*sizeof(particle);
